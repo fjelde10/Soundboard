@@ -8,18 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SoundBoardViewController: UIViewController {
 
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var stopBtn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func addBtn(_ sender: AnyObject) {
+    }
+    
+    @IBAction func recordBnt(_ sender: AnyObject) {
     }
 
-
+    @IBAction func playBtn(_ sender: AnyObject) {
+    }
 }
 
